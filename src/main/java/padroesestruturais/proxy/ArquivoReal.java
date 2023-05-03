@@ -14,7 +14,6 @@ public class ArquivoReal implements Arquivo {
 
     private void carregar() {
         System.out.println("Carregando arquivo de " + url);
-        // Simula um tempo de carregamento
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
